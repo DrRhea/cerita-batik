@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 
 const highlights = [
   "100% Pengrajin Lokal",
@@ -32,9 +33,9 @@ export default function Footer() {
           &copy; {new Date().getFullYear()} Cerita Batik. All rights reserved.
         </div>
         <div className="flex gap-4">
-          <a href="/wawasan" className="hover:underline">Wawasan</a>
-          <a href="/komunitas" className="hover:underline">Komunitas</a>
-          <a href="/tentang" className="hover:underline">Tentang Kami</a>
+          <Link href="/wawasan" className="hover:underline">Wawasan</Link>
+          <Link href="/komunitas" className="hover:underline">Komunitas</Link>
+          <Link href="/tentang" className="hover:underline">Tentang Kami</Link>
         </div>
       </div>
       <style jsx>{`
