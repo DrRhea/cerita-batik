@@ -10,17 +10,21 @@
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.10",
+    "@radix-ui/react-dialog": "^1.1.14",
+    "@radix-ui/react-select": "^2.2.5",
     "@supabase/auth-helpers-nextjs": "^0.8.7",
     "@supabase/auth-ui-react": "^0.4.7",
     "@supabase/supabase-js": "^2.43.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "keen-slider": "^6.8.6",
     "lucide-react": "^0.525.0",
     "next": "15.4.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-icons": "^5.5.0",
-    "tailwind-merge": "^3.3.1"
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
