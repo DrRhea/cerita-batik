@@ -30,7 +30,7 @@ export default async function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center">
       {/* Hero Section */}
-      <section className="w-full flex justify-center bg-gray-50 pt-8 mb-8">
+      <section className="w-full flex justify-center pt-8 mb-8">
         <HeroCarousel />
       </section>
 
