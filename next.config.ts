@@ -9,10 +9,15 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
-      // Add other image domains as needed
       {
         protocol: 'https',
         hostname: '*.supabase.co',
+        port: '',
+        pathname: '/storage/v1/object/public/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cmkuvvlmtkqyppjbnuqg.supabase.co',
         port: '',
         pathname: '/storage/v1/object/public/**',
       },
